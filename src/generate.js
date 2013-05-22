@@ -19,7 +19,7 @@ jwcrypto.generateKeypair({
   var pubkey = keypair.publicKey.toSimpleObject();
 
   fs.writeFileSync(
-    __dirname + "/../generated/public_key.jwks",
+    __dirname + "/../generated/public_jwks.json",
     JSON.stringify({
       keys: [
         {
