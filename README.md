@@ -15,11 +15,12 @@ http://blue-button.github.io/static-registry-example/.well-known/bb/apps.json
 http://blue-button.github.io/static-registry-example/.well-known/bb/providers.json
 
 ## Public key (linked from `registry.json`)
-http://blue-button.github.io/static-registry-example/.well-known/bb/apps.json
+http://blue-button.github.io/static-registry-example/generated/public_jwks.json
 
 ## Registration JWTs (for demonstration only)
 http://blue-button.github.io/static-registry-example/generated/private/secret_registration_tokens.json
-These would be secret (not public) in real life...
+
+(These would be secret -- never public -- in a real registry...)
 
 
 # Regenerating `/generated` files
