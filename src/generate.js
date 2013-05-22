@@ -42,8 +42,7 @@ jwcrypto.generateKeypair({
       iss: registry.url,
       sub: app.url,
       iat: new Date().getTime(),
-      kid: kid,
-      fixed_registration_parameters: app.fixed_registration_parameters
+      kid: kid
     }; 
 
     jwcrypto.sign(
