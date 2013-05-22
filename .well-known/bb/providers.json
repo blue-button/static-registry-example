@@ -1,0 +1,15 @@
+[
+{
+  "name": "Good Health Clinic",
+  "description": "Serving your health needs since 1999",
+  "url": "http://api.goodhealthclinic.org",
+  "oauth2": {
+    "authorize_uri": "http://portal.goodhealthclinic.org/authorize",
+    "token_uri": "http://portal.goodhealthclinic.org/token"
+  },
+  "bb_api":{
+    "summary": "http://api.goodhealthclinic.org/patient/documents/summary",
+    "search": "http://api.goodhealthclinic.org/patient/documents/search"
+  }
+}
+]

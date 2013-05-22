@@ -1,0 +1,15 @@
+{
+  "name": "static-bbplus-registry",
+  "version": "0.0.1",
+  "description": "Generates a totally static example Registry service for BB+ Pull",
+  "author": "Josh Mandel <joshua.mandel@childrens.harvard.edu>",
+  "dependencies": {
+    "bson": "*",
+    "async": "*",
+    "jwcrypto": "*",
+    "green-jwt": "*"
+  },
+  "devDependencies": {
+  },
+  "engine": "node >= 0.10.0"
+}

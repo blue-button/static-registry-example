@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://localhost:8001",
+    "name": "Local BB+ Sample App",
+    "fixed_registration_parameters": {
+      "client_name": "Local BB+ Sample App",
+      "client_uri": "https://localhost:8001",
+      "logo_uri": "https://localhost:8001/logo.png",
+      "contacts": [
+        "bbplus-developer@localhost"
+      ],
+      "tos_uri": "https://localhost:8001/tos.html",
+      "redirect_uris": [
+        "https://localhost:8001/after-auth"
+      ],
+      "response_types": ["token"],
+      "grant_types": ["implicit"],
+      "token_endpoint_auth_method": "none",
+      "scope":  "summary search"
+    }
+  },
+  {
+    "url": "https://bpgrapher.org",
+    "name": "Blood Pressure Grapher",
+    "fixed_registration_parameters": {
+      "client_name": "Blood Pressure Grapher",
+      "client_uri": "https://bpgrapher.org",
+      "logo_uri": "http://bpgrapher.org/images/logo.png",
+      "contacts": [
+        "plot-master@bpgrapher.org"
+      ],
+      "tos_uri": "https://bpgrapher.org/tos",
+      "redirect_uris": [
+        "https://bpgrapher.org/after-auth"
+      ],
+      "response_types": ["token"],
+      "grant_types": ["implicit"],
+      "token_endpoint_auth_method": "none",
+      "scope":  "single-patient http://siframework.org/ABBI/endpoint/summary"
+    }
+  }
+] 
