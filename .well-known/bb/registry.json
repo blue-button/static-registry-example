@@ -1,6 +1,6 @@
 {
   "name": "The BB+ Static Sample Registry",
-  "url": "http://blue-button.github.io/static-registry-example/",
+  "url": "http://blue-button.github.io/static-registry-example",
   "jwks_uri": "http://blue-button.github.io/static-registry-example/generated/public_jwks.json"
 }
         
