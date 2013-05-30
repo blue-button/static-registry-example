@@ -4,10 +4,9 @@
   "description": "Generates a totally static example Registry service for BB+ Pull",
   "author": "Josh Mandel <joshua.mandel@childrens.harvard.edu>",
   "dependencies": {
-    "bson": "*",
+    "optimist": "*",
     "async": "*",
-    "jwcrypto": "*",
-    "green-jwt": "*"
+    "jwcrypto": "*"
   },
   "devDependencies": {
   },

@@ -6,24 +6,46 @@ var registry = require("../.well-known/bb/registry.json");
 var apps = require("../.well-known/bb/apps.json");
 var kid = "main-sample-key-"+new Date().toISOString().substr(0,10);
 var BigInteger = require("./node_modules/jwcrypto/libs/all").BigInteger;
+var privateKeyFile = __dirname+"/keys/private.json";
 
 // jscrypto doesn't automatically register its algs -- 
 // but requiring an alg has the side effect of registering it...
 require("./node_modules/jwcrypto/lib/algs/rs");
 
-jwcrypto.generateKeypair({
-  algorithm: 'RS',
-  keysize: 256 // --> 2048 bit RSA key!
-}, function(err, keypair) {
+var argv = require("optimist").argv;
 
+// Generate a new set of keys when explicitly asked
+if (argv['generate-keys']) {
+  jwcrypto.generateKeypair({
+    algorithm: 'RS',
+    keysize: 256 // --> 2048 bit RSA key!
+  }, function(err, keypair) {
+    console.log(keypair.secretKey.serialize());
+    fs.writeFileSync(
+      privateKeyFile,
+      keypair.secretKey.serialize()
+    );
+    generate(keypair);
+  })
+} else {
+  // otherwise use existing keys
+  var privateKey = jwcrypto.loadSecretKey(fs.readFileSync(privateKeyFile));
+  var keypair = {
+    publicKey: privateKey,
+    secretKey: privateKey
+  };
+  generate(keypair);
+}
+
+function generate(keypair){
   fs.writeFileSync(
     __dirname + "/../generated/public_jwks.json",
     JSON.stringify({
       keys: [
         {
           kty: "RSA",
-          n: keypair.rsa.n.toBase64(),
-          e: new BigInteger(keypair.rsa.e.toString(), 10).toBase64(),
+          n: keypair.publicKey.rsa.n.toBase64(),
+          e: new BigInteger(keypair.publicKey.rsa.e.toString(), 10).toBase64(),
           alg: "RS256",
           kid: kid
         }
@@ -59,4 +81,4 @@ jwcrypto.generateKeypair({
       JSON.stringify(app_jwts, null, 2)
     );
   });
-});
+};
