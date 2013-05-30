@@ -4,7 +4,7 @@ var fs = require("fs");
 var path = require("path");
 var registry = require("../.well-known/bb/registry.json");
 var apps = require("../.well-known/bb/apps.json");
-var kid = "main-sample-key-"+new Date().toISOString().substr(0,10);
+var kid = "main-sample-key";
 var BigInteger = require("./node_modules/jwcrypto/libs/all").BigInteger;
 var privateKeyFile = __dirname+"/keys/private.json";
 
