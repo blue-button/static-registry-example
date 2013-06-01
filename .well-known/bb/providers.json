@@ -1,15 +1,15 @@
 [{
   "name": "Good Health Clinic",
   "description": "Serving your health needs since 1899",
-  "url": "http://bbplus-ri.aws.af.cm",
+  "url": "https://bbplus-ri.aws.af.cm",
   "oauth2": {
-    "registration_uri": "http://bbplus-ri.aws.af.cm/register",
-    "authorize_uri": "http://bbplus-ri.aws.af.cm/authorize",
-    "token_uri": "http://bbplus-ri.aws.af.cm/token"
+    "registration_uri": "https://bbplus-ri.aws.af.cm/register",
+    "authorize_uri": "https://bbplus-ri.aws.af.cm/authorize",
+    "token_uri": "https://bbplus-ri.aws.af.cm/token"
   },
   "bb_api":{
-    "summary": "http://bbplus-ri.aws.af.cm/api/bb/summary",
-    "search": "http://bbplus-ri.aws.af.cm/api/bb/search"
+    "summary": "https://bbplus-ri.aws.af.cm/api/bb/summary",
+    "search": "https://bbplus-ri.aws.af.cm/api/bb/search"
   }
 }, {
   "name": "Local Testing Hospital",
