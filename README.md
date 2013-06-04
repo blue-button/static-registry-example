@@ -1,24 +1,24 @@
 # BB+ Sample Registry (static site w/ generator)
 
 ## Registry root URL
-http://blue-button.github.io/static-registry-example
+https://bbplus-static-registry.aws.af.cm
 
 ## Discovery endpoints
 
 ### Registry discovery
-http://blue-button.github.io/static-registry-example/.well-known/bb/registry.json
+https://bbplus-static-registry.aws.af.cm/.well-known/bb/registry.json
 
 ### App discovery
-http://blue-button.github.io/static-registry-example/.well-known/bb/apps.json
+https://bbplus-static-registry.aws.af.cm/.well-known/bb/apps.json
 
 ### Provider discovery
-http://blue-button.github.io/static-registry-example/.well-known/bb/providers.json
+https://bbplus-static-registry.aws.af.cm/.well-known/bb/providers.json
 
 ## Public key (linked from `registry.json`)
-http://blue-button.github.io/static-registry-example/generated/public_jwks.json
+https://bbplus-static-registry.aws.af.cm/generated/public_jwks.json
 
 ## Registration JWTs (for demonstration only)
-http://blue-button.github.io/static-registry-example/generated/private/secret_registration_tokens.json
+https://bbplus-static-registry.aws.af.cm/generated/private/secret_registration_tokens.json
 
 (These would be secret -- never public -- in a real registry...)
 
