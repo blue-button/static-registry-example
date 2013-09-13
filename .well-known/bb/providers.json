@@ -8,7 +8,7 @@
     "token_uri": "https://bbplus-ri.aws.af.cm/token"
   },
   "bb_api":{
-    "fhir_service_uri": "https://fhir.aws.af.cm/fhir",
+    "fhir_service_uri": "https://api.fhir.me/fhir",
     "summary": "https://bbplus-ri.aws.af.cm/api/bb/summary",
     "search": "https://bbplus-ri.aws.af.cm/api/bb/search"
   }
