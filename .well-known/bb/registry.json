@@ -1,5 +1,5 @@
 {
   "name": "The BB+ Pilots Registry",
-  "url": "https://pilots.fhir.me",
-  "jwks_uri": "https://pilots.fhir.me/generated/public_jwks.json"
+  "url": "http://pilots.fhir.me",
+  "jwks_uri": "http://pilots.fhir.me/generated/public_jwks.json"
 }
