@@ -1,5 +1,5 @@
 {
-  "name": "The BB+ Static Sample Registry",
-  "url": "https://bbplus-static-registry.aws.af.cm",
-  "jwks_uri": "https://bbplus-static-registry.aws.af.cm/generated/public_jwks.json"
+  "name": "The BB+ Pilots Registry",
+  "url": "https://pilots.fhir.me",
+  "jwks_uri": "https://pilots.fhir.me/generated/public_jwks.json"
 }

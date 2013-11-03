@@ -1,24 +1,24 @@
 # BB+ Sample Registry (static site w/ generator)
 
 ## Registry root URL
-https://bbplus-static-registry.aws.af.cm
+https://pilots.fhir.me
 
 ## Discovery endpoints
 
 ### Registry discovery
-https://bbplus-static-registry.aws.af.cm/.well-known/bb/registry.json
+https://pilots.fhir.me/.well-known/bb/registry.json
 
 ### App discovery
-https://bbplus-static-registry.aws.af.cm/.well-known/bb/apps.json
+https://pilots.fhir.me/.well-known/bb/apps.json
 
 ### Provider discovery
-https://bbplus-static-registry.aws.af.cm/.well-known/bb/providers.json
+https://pilots.fhir.me/.well-known/bb/providers.json
 
 ## Public key (linked from `registry.json`)
-https://bbplus-static-registry.aws.af.cm/generated/public_jwks.json
+https://pilots.fhir.me/generated/public_jwks.json
 
 ## Registration JWTs (for demonstration only)
-https://bbplus-static-registry.aws.af.cm/generated/private/secret_registration_tokens.json
+https://pilots.fhir.me/generated/private/secret_registration_tokens.json
 
 (These would be secret -- never public -- in a real registry...)
 
@@ -28,5 +28,5 @@ https://bbplus-static-registry.aws.af.cm/generated/private/secret_registration_t
 ```
 cd src
 npm install
-node generate.js
+node generate.js # optionally --generate-keys
 ```

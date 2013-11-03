@@ -8,7 +8,7 @@
     "token_uri": "https://bbplus-ri.aws.af.cm/token"
   },
   "bb_api":{
-    "fhir_service_uri": "https://api.fhir.me/fhir",
+    "fhir_service_uri": "https://api.fhir.me",
     "summary": "https://bbplus-ri.aws.af.cm/api/bb/summary",
     "search": "https://bbplus-ri.aws.af.cm/api/bb/search"
   }
@@ -22,8 +22,8 @@
     "token_uri": "http://localhost:8080/openid-connect-server/token"
   },
   "bb_api":{
-    "fhir_service_uri": "http://localhost:8080/fhir-server/fhir",
-    "summary": "http://localhost:8080/fhir-server/fhir/summary",
-    "search": "http://localhost:8080/fhir-server/fhir/documentreference/search"
+    "fhir_service_uri": "http://localhost:8080/fhir-server",
+    "summary": "http://localhost:8080/fhir-server/summary",
+    "search": "http://localhost:8080/fhir-server/documentreference/search"
   }
 }]

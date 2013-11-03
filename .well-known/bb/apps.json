@@ -29,9 +29,100 @@
         "plot-master@bpgrapher.org"
       ],
       "redirect_uris": [ "http://joshuamandel.com/blue-button-blood-pressure-app/index.html" ],
-      "response_types": ["token"],
-      "grant_types": ["implicit"],
-      "token_endpoint_auth_method": "none",
+        "response_types": ["token"],
+        "grant_types": ["implicit"],
+        "token_endpoint_auth_method": "none",
+        "scope":  "summary"
+    }
+  }, {
+    "url": "http://stayinyourprime.com",
+    "name": "Prime",
+    "fixed_registration_parameters": {
+      "client_name": "Prime",
+      "client_uri": "http://stayinyourprime.com",
+      "logo_uri": "http://stayinyourprime.com/img/logo.png",
+      "contacts": [
+        "hi@stayinyourprime.com"
+      ],
+      "redirect_uris": [
+        "http://stayinyourprime.com"
+      ],
+
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code"
+      ],
+      "scope": "summary"
+    }
+  }, {    
+    "name": "Clinical Trials BB+ Pilot (Dev)",
+    "url": "http://localhost:8090/SIFBBPilot/",
+    "fixed_registration_parameters": 
+    {
+      "client_name": "Clinical Trials BB+ Pilot",
+      "client_uri": "http://localhost:8090/SIFBBPilot/",
+      "logo_uri": "http://localhost:8090/SIFBBPilot/images/rxClinicalTrials.png",
+      "contacts": 
+      [
+        "exim@comcast.net"
+      ],
+      "redirect_uris": 
+      [ 
+        "http://localhost:8090/SIFBBPilot/index.html" 
+      ],
+      "response_types": 
+      [
+        "code"
+      ],
+      "grant_types": 
+      [
+        "authorization_code"
+      ],
+      "scope":  "summary"
+    }
+  }, {    
+    "name": "Clinical Trials BB+ Pilot",
+    "url": "http://USGovXML.com/SIFBBPilot/",
+    "fixed_registration_parameters": 
+    {
+      "client_name": "Clinical Trials BB+ Pilot",
+      "client_uri": "http://USGovXML.com/SIFBBPilot/",
+      "logo_uri": "http://USGovXML.com/SIFBBPilot/images/rxClinicalTrials.png",
+      "contacts": 
+      [
+        "exim@comcast.net"
+      ],
+      "redirect_uris": 
+      [ 
+        "http://USGovXML.com/SIFBBPilot/index.html" 
+      ],
+      "response_types": 
+      [
+        "code"
+      ],
+      "grant_types": 
+      [
+        "authorization_code"
+      ],
+      "scope":  "summary"
+    }
+  }, {
+    "url": "https://www.healthpasskey.com",
+    "name": "HealthPasskey",
+    "fixed_registration_parameters": {
+      "client_name": "HealthPasskey",
+      "client_uri": "https://www.healthpasskey.com",
+      "logo_uri": "https://www.healthpasskey.com/Common/Images/Header/LogoHealthPasskey.png",
+      "contacts": [
+        "administration@healthpasskey.com"
+      ],
+      "redirect_uris": [
+        "https://healthpasskey.com/index.aspx"
+      ],
+      "response_types": ["code"],
+      "grant_types": ["authorization_code"],
       "scope":  "summary"
     }
   }
