@@ -125,5 +125,26 @@
       "grant_types": ["authorization_code"],
       "scope":  "summary"
     }
+  }, {
+    "url": "https://demo.healthpasskey.com",
+    "name": "HealthPasskey",
+    "fixed_registration_parameters": {
+      "client_name": "HealthPasskey",
+      "client_uri": "https://demo.healthpasskey.com",
+      "logo_uri": "https://demo.healthpasskey.com/Common/Images/Header/LogoHealthPasskey.png",
+      "contacts": [
+        "administration@healthpasskey.com"
+      ],
+      "redirect_uris": [
+        "https://demo.healthpasskey.com/index.aspx" 
+      ],
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code"
+      ],
+      "scope":  "summary"
+    }
   }
 ] 
