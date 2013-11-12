@@ -146,5 +146,48 @@
       ],
       "scope":  "summary"
     }
+  }, {
+    "url": "https://healthbox.virtuehealth.com",
+    "name": "Swellbox (DEV)",
+    "fixed_registration_parameters": {
+      "client_name":"Swellbox (DEV)",
+      "client_uri":"https://healthbox.virtuehealth.com",
+      "logo_uri":"https://healthbox.virtuehealth.com/gfx/logo.png",
+      "contacts":[
+        "jeff@swellbox.com"
+      ],
+      "tos_uri":"https://healthbox.virtuehealth.com/company/tos",
+      "redirect_uris":[
+        "https://healthbox.virtuehealth.com/apps/bbp-pull/authenticated"
+      ],
+      "response_types":[
+        "code"
+      ],
+      "grant_types":[
+        "authorization_code"
+      ],
+      "scope":"summary"
+    }
+  }, {
+    "url": "https://sandbox.swellbox.com",
+    "name": "Swellbox",
+    "fixed_registration_parameters": {
+      "client_name":"Swellbox",
+      "client_uri":"https://sandbox.swellbox.com",
+      "logo_uri":"https://sandbox.swellbox.com/gfx/logo.png",
+      "contacts":[
+        "jeff@swellbox.com"
+      ],
+      "tos_uri":"https://sandbox.swellbox.com/company/tos",
+      "redirect_uris":[
+        "https://sandbox.swellbox.com/apps/bbp-pull/authenticated"
+      ],
+      "response_types": [
+      "code"],
+      "grant_types":[
+        "authorization_code"
+      ],
+      "scope":"summary"
+    }
   }
 ] 
