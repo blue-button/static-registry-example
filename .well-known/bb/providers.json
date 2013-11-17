@@ -9,7 +9,7 @@
   },
   "bb_api":{
     "fhir_service_uri": "https://api.fhir.me",
-    "summary": "https://authorize.fhir.me/api/bb/summary",
+    "summary": "https://api.fhir.me/BlueButtonSummary",
     "search": "https://api.fhir.me/DocumentReference"
   }
 }, {
