@@ -189,5 +189,27 @@
       ],
       "scope":"summary"
     }
+  }, {    
+    "name": "Activ3p Screening (Dev)",
+    "url": "http://localhost:8080/activ/",
+    "fixed_registration_parameters": 
+    {
+      "client_name": "Activ3p Screening",
+      "client_uri": "http://localhost:8080/activ/",
+      "logo_uri": "http://localhost:8080/activ/image/activ3p-logo-200.png",
+      "contacts": [
+        "ajchen@activ3p.com"
+      ],
+      "redirect_uris": [ 
+        "http://localhost:8080/activ/oauth2/callback" 
+      ],
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code"
+      ],
+      "scope":  "search summary"
+    }
   }
 ] 
