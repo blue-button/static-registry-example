@@ -53,11 +53,13 @@ function generate(keypair){
     }, null, 2)
   );
 
-  var app_jwts = {
+  var app_jwts = { };
+  if (argv.preserve) {
+     app_jwts = require(__dirname+'/../generated/private/secret_registration_tokens.json');
+  }
 
-  };
-
-  async.each(apps, function(app, callback){
+  async.each(apps.filter(function(a){return !argv.preserve || (argv.update.indexOf(a.url) !== -1);}),
+  function(app, callback){
     var prereg_jwt_claims = {
       iss: registry.url,
       sub: app.url,

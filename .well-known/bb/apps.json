@@ -119,7 +119,7 @@
         "administration@healthpasskey.com"
       ],
       "redirect_uris": [
-        "https://healthpasskey.com/index.aspx"
+        "https://www.healthpasskey.com/Patient/Dashboard/WebDisplayCCD.aspx"
       ],
       "response_types": ["code"],
       "grant_types": ["authorization_code"],
@@ -136,7 +136,7 @@
         "administration@healthpasskey.com"
       ],
       "redirect_uris": [
-        "https://demo.healthpasskey.com/index.aspx" 
+        "https://demo.healthpasskey.com/Patient/Dashboard/WebDisplayCCD.aspx" 
       ],
       "response_types": [
         "code"
