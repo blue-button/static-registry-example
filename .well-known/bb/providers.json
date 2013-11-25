@@ -17,9 +17,9 @@
   "description": "Just on a developer's machine",
   "url": "http://localhost:8080/openid-connect-server",
   "oauth2": {
-    "registration_uri": "http://localhost:8080/openid-connect-server/register",
-    "authorize_uri": "http://localhost:8080/openid-connect-server/authorize",
-    "token_uri": "http://localhost:8080/openid-connect-server/token"
+    "registration_uri": "http://localhost:8080/openid-connect-server-webapp/register",
+    "authorize_uri": "http://localhost:8080/openid-connect-server-webapp/authorize",
+    "token_uri": "http://localhost:8080/openid-connect-server-webapp/token"
   },
   "bb_api":{
     "fhir_service_uri": "http://localhost:8080/fhir-server",
