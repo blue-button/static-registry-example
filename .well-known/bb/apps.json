@@ -136,7 +136,8 @@
         "administration@healthpasskey.com"
       ],
       "redirect_uris": [
-        "https://demo.healthpasskey.com/Patient/Dashboard/WebDisplayCCD.aspx" 
+        "https://demo.healthpasskey.com/Patient/Dashboard/WebDisplayCCD.aspx",
+        "http://localhost:2788/PRHealthNetwork/Patient/DashBoard/WebDisplayCCD.aspx"
       ],
       "response_types": [
         "code"
