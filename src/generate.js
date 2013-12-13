@@ -58,6 +58,7 @@ function generate(keypair){
      app_jwts = require(__dirname+'/../generated/private/secret_registration_tokens.json');
   }
 
+  argv.update = argv.update || [];
   async.each(apps.filter(function(a){return !argv.preserve || (argv.update.indexOf(a.url) !== -1);}),
   function(app, callback){
     var prereg_jwt_claims = {

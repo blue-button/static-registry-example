@@ -212,5 +212,49 @@
       ],
       "scope":  "search summary"
     }
+  }, { 
+    "name": "rxInfo Suite of EMR/PHR apps (Dev)",
+    "url": "http://localhost:8090/SIFBBPilot/rxInfo",
+    "fixed_registration_parameters": {
+      "client_name": "rxInfo Suite of EMR/PHR apps",
+      "client_uri": "http://localhost:8090/SIFBBPilot/rxInfo",
+      "logo_uri": "http://localhost:8090/SIFBBPilot/rxInfo/images/rxinfo.png",
+      "contacts": [
+        "exim@comcast.net"
+      ],
+      "redirect_uris": [
+        "http://localhost:8090/SIFBBPilot/rxInfo/index.html"
+      ],
+      "response_types":
+      [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code"
+      ],
+      "scope":  "summary"
+    }
+  }, {    
+    "name": "rxInfo Suite of EMR/PHR apps",
+    "url": "http://USGovXML.com/SIFBBPilot/rxInfo",
+    "fixed_registration_parameters": 
+    {
+      "client_name": "rxInfo Suite of EMR/PHR apps",
+      "client_uri": "http://USGovXML.com/SIFBBPilot/rxInfo",
+      "logo_uri": "http://USGovXML.com/SIFBBPilot/rxInfo/images/rxinfo.png",
+      "contacts": [
+        "exim@comcast.net"
+      ],
+      "redirect_uris": [ 
+        "http://USGovXML.com/SIFBBPilot/rxInfo/index.html" 
+      ],
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code"
+      ],
+      "scope":  "summary"
+    }
   }
 ] 
