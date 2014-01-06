@@ -256,5 +256,29 @@
       ],
       "scope":  "summary"
     }
+  }, {
+    "name": "Medfusion BB+ Client Demo",
+    "url": "https://bbplus.medfusion.com/client-demo",
+    "fixed_registration_parameters": {
+      "client_name": "Medfusion BB+ Client Demo",
+      "client_uri": "https://bbplus.medfusion.com/client-demo",
+      "logo_uri": "https://bbplus.medfusion.com/client-demo/assets/images/logo.png",
+      "tos_uri": "https://bbplus.medfusion.com/client-demo/tos.htm",
+      "redirect_uris": [
+        "https://bbplus.medfusion.com/client-demo/index.htm"
+      ],
+      "response_types": [
+        "token", 
+        "code"
+      ],
+      "grant_types": [
+        "implicit", 
+        "authorization_code"
+      ],
+      "scope":  "search summary",
+      "contacts": [
+        "joe_hindsley@medfusion.com"
+      ]
+    }
   }
 ] 
