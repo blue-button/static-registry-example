@@ -15,15 +15,15 @@
 }, {
   "name": "SMART on FHIR Testing Server",
   "description": "Dev server for SMART on FHIR",
-  "url": "https://authorize.smartplatforms.org",
+  "url": "http://authorize.smartplatforms.org",
   "oauth2": {
-    "registration_uri": "https://authorize.smartplatforms.org/register",
-    "authorize_uri": "https://authorize.smartplatforms.org/authorize",
-    "token_uri": "https://authorize.smartplatforms.org/token"
+    "registration_uri": "http://authorize.smartplatforms.org/register",
+    "authorize_uri": "http://authorize.smartplatforms.org/authorize",
+    "token_uri": "http://authorize.smartplatforms.org/token"
   },
   "bb_api":{
-    "fhir_service_uri": "https://fhir-api.smartplatforms.org",
-    "search": "https://fhir-api.smartplatforms.org/DocumentReference"
+    "fhir_service_uri": "http://fhir-api.smartplatforms.org",
+    "search": "http://fhir-api.smartplatforms.org/DocumentReference"
   }
 },{
   "name": "Local Testing Hospital",
